@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="tb1_chg" max_length="40" name="sn_jun_17_tb1" type="collection">
-        <element choice="1" label="myChoice" max_length="10" name="mychoice" type="choice">
+    <element label="tb1_bkp" max_length="40" name="sn_jun_17_tb1" type="collection">
+        <element choice="1" label="myChoice_bkp" max_length="10" name="mychoice" type="choice">
             <choice>
-                <element inactive_on_update="false" label="CH1" value="ch1"/>
-                <element inactive_on_update="false" label="CH2" value="ch2"/>
+                <element inactive_on_update="false" label="CH1_BKP" value="ch1_bkp"/>
+                <element inactive_on_update="false" label="CH2_BKP" value="ch2_bkp"/>
             </choice>
         </element>
-        <element label="myCol_tb1" max_length="10" name="mycol_tb1" type="string"/>
+        <element label="myCol_tb1_bkp" max_length="10" name="mycol_tb1" type="string"/>
     </element>
 </database>

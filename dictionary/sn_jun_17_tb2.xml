@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="tb2_chg" max_length="40" name="sn_jun_17_tb2" type="collection">
-        <element choice="1" label="myChoice" max_length="10" name="mychoice" type="choice">
+    <element label="tb2_bkp" max_length="40" name="sn_jun_17_tb2" type="collection">
+        <element choice="1" label="myChoice_bkp" max_length="10" name="mychoice" type="choice">
             <choice>
-                <element inactive_on_update="false" label="CH2" value="ch2"/>
-                <element inactive_on_update="false" label="CH3" value="ch3"/>
+                <element inactive_on_update="false" label="CH2_BKP" value="ch2_bkp"/>
+                <element inactive_on_update="false" label="CH3_BKP" value="ch3_bkp"/>
             </choice>
         </element>
-        <element choice="1" label="My choice" max_length="10" name="my_choice" type="choice">
+        <element choice="1" label="My choice_bkp" max_length="10" name="my_choice" type="choice">
             <choice/>
         </element>
     </element>
